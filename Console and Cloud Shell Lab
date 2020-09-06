@@ -13,6 +13,7 @@ In this lab, you learn how to perform the following tasks:
  1. Create a bucket using the Cloud Console
     
     -Set location where the bucket will be created
+   
         export LOCATION=US
     
     -Creat bucket in the specified location
@@ -25,7 +26,7 @@ In this lab, you learn how to perform the following tasks:
     
         gsutil ls
  -Upload text file from your local computer to cloud storage
-        gsutil cp D:\web.txt gs://my-bucket
+        
         
    list the objects uploaded to cloud shell to confirm the file was uploaded successfully
           ls
